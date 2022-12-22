@@ -11,7 +11,7 @@ def main():
 
     Label(root,image=img).grid(row=0,column=0,padx=550,columnspan=12)
     Label(root,text="ONLINE BUS BOOKING SYSTEM",font="Ariel 27 bold",bg="light blue",fg="red").grid(row=1,column=0,columnspan=12)
-    Label(root,text="Add Bus Details",font="Ariel 19 ",bg="snow",fg="dark green").grid(row=2,column=0,pady=20,columnspan=12)
+    Label(root,text="Add Bus Details",font="Ariel 19 ", bg="snow",fg="dark green").grid(row=2,column=0,pady=20,columnspan=12)
     
     menu2=StringVar()
     menu2.set("Bus Type")
